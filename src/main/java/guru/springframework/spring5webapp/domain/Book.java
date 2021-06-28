@@ -1,7 +1,5 @@
 package guru.springframework.spring5webapp.domain;
 
-import jdk.jfr.Enabled;
-
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
@@ -79,7 +77,6 @@ public class Book {
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", isbn='" + isbn + '\'' +
-                ", authors=" + authors +
                 '}';
     }
 
